@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Страница Никиты Мирошникова — музыканта и звукорежиссёра.">
+  <title>О себе — Никита Мирошников</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #skills ul { list-style-type: square; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/image.png" alt="Фотография Никиты Мирошникова" width="180" height="180">
+    <p class="subtitle">Музыкант и звукорежиссёр</p>
+    <h1>Никита Мирошников</h1>
+    <p>Студент группы 932402, вариант №9</p>
+  </header>
+
+  <nav aria-label="Навигация по странице">
+    <a href="#skills">Навыки</a>
+    <a href="#projects">Проекты</a>
+    <a href="#contact">Обратная связь</a>
+  </nav>
+
+  <main>
+    <section id="skills">
+      <h2>Навыки</h2>
+      <ul>
+        <li>Игра на музыкальных инструментах</li>
+        <li>Работа в цифровых звуковых станциях (DAW)</li>
+        <li>Запись и монтаж аудио</li>
+        <li>Сведение и мастеринг треков</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Проекты</h2>
+      <ol>
+        <li><strong>Кавер-версия</strong> любимой композиции</li>
+        <li><strong>Авторский трек</strong> в электронном жанре</li>
+        <li><strong>Ремикс</strong> студенческой музыкальной темы</li>
+        <li><strong>Звуковое оформление</strong> короткого видеоролика</li>
+      </ol>
+    </section>
+
+
+
+    <aside>
+      <h2>Любимый жанр</h2>
+      <p>Электронная музыка привлекает свободой работы со звуком, ритмом и атмосферой.</p>
+    </aside>
+
+    <div id="contact">
+      <h2>Обратная связь</h2>
+      <form action="#" method="post" style="display: flex;">
+        <label for="name">Имя</label>
+        <input id="name" type="text" name="name" placeholder="Введите ваше имя">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Введите ваш email">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" placeholder="Введите ваше сообщение" rows="5"></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Никита Мирошников</p>
+  </footer>
+</body>
+</html>
