@@ -173,3 +173,39 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.release-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.release-card {
+  flex: 0 0 100%;
+  min-width: 0;
+  padding: 12px;
+  background-color: var(--color-primary);
+}
+
+.release-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.release-card h3 {
+  color: var(--color-heading);
+}
+
+@media (min-width: 600px) {
+  .release-card {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+}
+
+@media (min-width: 900px) {
+  .release-card {
+    flex-basis: calc((100% - 48px) / 4);
+  }
+}
